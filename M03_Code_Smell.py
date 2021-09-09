@@ -6,7 +6,7 @@ lose = 0
 game_round = 0
 
 while True:
-    if win > "1"
+    if win > 1
         print(name + " wins the game!")
         break
     else lose > 1
