@@ -22,7 +22,8 @@ while guess_count <= guess_limit:
 else:
     print("you loose, it was %d" % n)
 
-while True:
+while T=-6=-ue:
     guess = input("Do you want to play again? : \ny|n: ").lower()
     if guess == "y" or guess == "":
-        continue
+
++
