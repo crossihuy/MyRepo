@@ -7,21 +7,18 @@ shuf(my_list1)
 for ans1, i in zip(my_list1, abcd):
     print(i, ans1)
 answer = input("What letter is your answer? ")
-ans1 = my_list1.index("Grapefruit")
-if ans1  == "answer":
+if abcd.index(answer) == my_list1.index("Grapefruit"):
     print("Correct, Yeah!")
-
-elif answer == ["a","c","d"]:
-    print("Sorry wrong answer")
 else:
-    print("You did not select a letter")
+    print("Sorry wrong answer")
+#else:
 
-print(my_list1)
-answer = my_list1.index("Grapefruit")
-print(answer)
-#elif question == "n":
-#    for i in my_list:
-#    print(i + " is my friend")
+
+#    print("You did not select a letter")
+#print(my_list1)
+#answer = my_list1.index("Grapefruit")
+#print(answer)
+
 
 
 

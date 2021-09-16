@@ -1,0 +1,24 @@
+Command mode is where you start when you first open vim
+From command mode, press 'i' to insert at the cursor
+From command mode, press 'a' to insert after the cursor
+From any mode, press 'esc' to enter command mode
+From command mode, press 'O' to open a new line above in insert mode
+From command mode, press 'o' to open a new line below in insert mode
+From command mode, press 'I' to insert at the beginning of the line
+From command mode, press 'A' to insert at the end of the line
+From command mode, press 'w' to move to the next word
+From command mode, press 'e' to move the end of the next word
+From command mode, press 'b' to move to the previous 
+From command mode, press ':set spell!' to turn on/off spelling
+From command mode, put your cursor on the misspelled word and press 'z=' to fix the word
+
+From command mode, press ':w' to save
+From command mode, press ':q' to quit
+From command mode, press ':q!' to quit without saving
+From command mode, press ':wq" to save and quit
+
+From command mode, press 'v' to enter visual mode
+From visual mode, move the cursor to highlight a selection
+From visual mode, press 'y' to yank (copy) data to the buffer (clipboard)
+From command mode, press 'p' to paste
+
