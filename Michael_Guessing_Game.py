@@ -41,3 +41,5 @@ while again != "n": # The game keeps playing on a yes and defult, stops on no
             break
         else:
             print("Invaid input.")
+to insert at the beginning of the line
+to insert at the beginning of the line

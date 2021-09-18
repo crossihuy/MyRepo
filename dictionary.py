@@ -23,7 +23,7 @@ def get_key(arg, dictionary):  # arg can be any value name
 x = get_key(2.0, letter_grades)
 print(x)
 
- #how to count from a list use a dictionary
+#how to count from a list use a dictionary
  grades = ["A", "B", "A", "F", "D", "A", "F", "C", "A", "A", "A", "B", "A", "B"]
  count = {}
  for i in grades:
