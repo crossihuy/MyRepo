@@ -1,0 +1,61 @@
+import math
+first_name = []
+last_name = []
+grade = []
+response = "y"
+
+def student_info():
+    while True:
+        try:
+
+            student = input("What is your name? /n")
+            return student
+            grade = input("What is you grade? /n")
+            if grade =="A":
+                score = 4.0
+            elif grade =="B":
+                score = 3.0 	
+            elif grade =="C":
+                score = 2.0
+            elif grade =="D":
+                score = 1.0
+            elif grade =="F":
+                score = 0.0
+
+
+
+#        first_name = []
+#        last_name = []
+#        grade = []
+#        response = "y"
+
+#    while response != "n":
+        first_name.append(input("Student's first name? \n"))
+        last_name.append(input("Student's last name ?\n")
+        grade.append(input("Student's grade: ") 
+
+    response = input("Do you want to add another student?  Y|n: ").lower()
+    print(response)
+    while True:
+        if response == "y" or response == "":
+            break
+        elif response == "n":
+            break
+        else:
+            response = input("\nPlease enter a 'Y' for yes or a 'N' for no: ").lower()
+if len(shopping_cart) < 11:
+    total = sum(shopping_cart)
+elif len(shopping_cart) < 23:
+    total = sum(shopping_cart) * 0.85
+elif len(shopping_cart) > 24:
+    total = sum(shopping_cart) * 0.75
+tax = total * 1.08
+print(f"The total is: ${tax:.{2}f}.")
+
+
+
+
+
+
+if__name__ != "__main__":
+    main()
