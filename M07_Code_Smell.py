@@ -6,7 +6,7 @@ def is_num(question):
         except ValueError:
             print("That is not a number")
             continue
-    return x
+        return x
 class cat():
     def init_(self):
         self.name = input("What is your pet's name? \n")
@@ -46,8 +46,8 @@ def main ():
                 file.write(".\n\n")
             for i in pet:
                 file.write(f"{i.name} is a {i.color}, {i.type} and is {i.age} years old. \n")
-                else:
-                    exit
+              # else:
+                exit
 
                 if __name__ == "__main__": 
                     main()
